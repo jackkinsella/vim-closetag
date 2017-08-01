@@ -17,10 +17,19 @@ And now if you press <kbd>&gt;</kbd> again, the content will be:
         |
     </table>
 
-The following tags will not be closed:
+The following tags will never be closed:
 
     <area>, <base>, <br>, <col>, <command>, <embed>, <hr>, <img>, 
     <input>, <keygen>, <link>, <meta>, <param>, <source>, <track>, <wbr>
+
+If you wish to stop the plugin from automatically closing a tag that isn't listed above, simply type `<<leader>,>>`. For example:
+
+    <customtag|
+
+would become:
+
+    <customtag>
+
 
 #### Install
 
